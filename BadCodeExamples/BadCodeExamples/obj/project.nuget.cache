@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "vAS8SB7G6m4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lanisimova.USETECH\\source\\repos\\BadCodeExamples\\BadCodeExamples\\BadCodeExamples.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lanisimova.USETECH\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
+    "C:\\Users\\lanisimova.USETECH\\.nuget\\packages\\mimekit\\4.7.1\\mimekit.4.7.1.nupkg.sha512",
+    "C:\\Users\\lanisimova.USETECH\\.nuget\\packages\\system.formats.asn1\\8.0.1\\system.formats.asn1.8.0.1.nupkg.sha512",
+    "C:\\Users\\lanisimova.USETECH\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.0\\system.security.cryptography.pkcs.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
