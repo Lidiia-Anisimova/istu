@@ -46,3 +46,4 @@ namespace BadCodeExamples
         }
     }
 }
+/// Очень похоже на GodObject. Все процедуры лежат в одной родительской.

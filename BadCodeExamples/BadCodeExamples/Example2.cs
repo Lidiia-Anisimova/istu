@@ -57,3 +57,5 @@ namespace BadCodeExamples
         }
     }
 }
+
+/// public void Send() и public class NotificationService дублируют друг друга
