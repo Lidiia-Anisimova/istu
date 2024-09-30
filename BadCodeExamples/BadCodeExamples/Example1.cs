@@ -1,4 +1,4 @@
-﻿using BadCodeExamples.Entities;
+﻿using BadCodeExamples.Entities; 
 
 namespace BadCodeExamples
 {
