@@ -1,4 +1,4 @@
-﻿//Нарушен принцип SOLID (клево) а какой именно?)
+﻿//Нарушен принцип SOLID (клево) а какой именно?) Single Responsibility Principle Принцип единственной ответственности - class RentCarService много чего делает
 using BadCodeExamples.Entities;
 
 namespace BadCodeExamples
