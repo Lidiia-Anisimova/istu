@@ -1,4 +1,5 @@
-﻿//Нарушены принципы DRY, SOLID
+﻿//Нарушены принципы DRY, SOLID; Single Responsibility Principle Принцип единственной ответственности - class Send и NotificationService отправляют, 
+//создает и настраевает сообщение
 using System.Net.Mail;
 
 namespace BadCodeExamples
