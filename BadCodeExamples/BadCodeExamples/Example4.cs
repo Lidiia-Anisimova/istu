@@ -1,4 +1,4 @@
-﻿namespace BadCodeExamples  
+﻿namespace BadCodeExamples   
 {
     public abstract class Bird
     {
