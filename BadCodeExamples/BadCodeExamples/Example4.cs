@@ -1,4 +1,4 @@
-﻿//Нарушен принцип DRY
+﻿//Нарушены принципы DRY, SOLID
 namespace BadCodeExamples
 {
     public abstract class Bird
