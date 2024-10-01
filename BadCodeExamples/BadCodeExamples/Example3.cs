@@ -1,4 +1,5 @@
-﻿namespace BadCodeExamples
+﻿// Нарушены принцип KISS
+namespace BadCodeExamples
 {
     public class Class1
     {
