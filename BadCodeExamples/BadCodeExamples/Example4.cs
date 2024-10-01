@@ -1,4 +1,4 @@
-﻿namespace BadCodeExamples
+﻿namespace BadCodeExamples // Большое кол-во классов DRY
 {
     public abstract class Bird
     {
@@ -49,7 +49,7 @@
         /// <inheritdoc />
         public override void Fly(int speed)
         {
-            // голубь летит
+            // голубь летит               //реализация полета с ошибочным значением птицы
         }
     }
 
