@@ -1,4 +1,4 @@
-﻿//Нарушены принципы DRY, SOLID
+﻿//Нарушены принципы DRY, SOLID; Происходит повторение void Fly(), не все подклассы птиц могут заменит класс птиц.
 namespace BadCodeExamples
 {
     public abstract class Bird
