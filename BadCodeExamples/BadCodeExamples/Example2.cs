@@ -1,8 +1,8 @@
 ﻿using System.Net.Mail;
 
-namespace BadCodeExamples
+namespace BadCodeExamples // Большое кол-во классов (KISS), повторений (DRY)
 {
-    public class EmailSender
+    public class EmailSender 
     {
 
         public void Send()
@@ -13,7 +13,7 @@ namespace BadCodeExamples
                 Subject = "Subject",
                 From = new MailAddress("DisplayName", "From")
             };
-            using var smtp = new SmtpClient();
+            using var smtp = new SmtpClient(); // не нужное использовение using т.к добавленна библиотека using System.Net.Mail
             smtp.SendAsync(email, "token");
         }
 
@@ -31,11 +31,11 @@ namespace BadCodeExamples
                 Subject = "Subject",
                 From = new MailAddress("DisplayName", "From")
             };
-            using var smtp = new SmtpClient();
+            using var smtp = new SmtpClient(); // не нужное использовение using т.к добавленна библиотека using System.Net.Mail
             smtp.SendAsync(email, "token");
         }
 
-    }
+    } // Классы NotificationService и EmailSender имеют одинаковый код (DRY)
 
 
     public class Worker()
@@ -55,5 +55,5 @@ namespace BadCodeExamples
             var sender = new NotificationService();
             sender.SendNotification();
         }
-    }
-}
+    } //Классы и методы содержат одинаковые названия (DRY)
+}   
