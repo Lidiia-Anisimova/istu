@@ -46,3 +46,5 @@ namespace BadCodeExamples
         }
     }
 }
+
+//Нарушется принцип SOLID. Так как как класс public class RentCarService делает уж много всего за раз. хз...
