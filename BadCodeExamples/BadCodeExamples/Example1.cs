@@ -46,3 +46,6 @@ namespace BadCodeExamples
         }
     }
 }
+
+
+//нарушен KISS
