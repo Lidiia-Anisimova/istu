@@ -2,7 +2,7 @@
 {
     public class Class1
     {
-        public decimal Calculate(decimal amount, int type, int years)
+        public decimal Calculate(decimal amount, int type, int years) // Все в одной куче, разделить и сделать читабельный код!)
         {
             decimal result = 0;
             decimal disc = (years > 5) ? (decimal)5 / 100 : (decimal)years / 100;
