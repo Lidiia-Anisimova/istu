@@ -1,4 +1,5 @@
-﻿namespace BadCodeExamples
+﻿//Нарушен принцип DRY
+namespace BadCodeExamples
 {
     public abstract class Bird
     {
