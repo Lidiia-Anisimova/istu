@@ -1,4 +1,4 @@
-﻿//Нарушен принцип SOLID
+﻿//Нарушен принцип SOLID (клево) а какой именно?)
 using BadCodeExamples.Entities;
 
 namespace BadCodeExamples
