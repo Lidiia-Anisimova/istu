@@ -2,7 +2,7 @@
 
 namespace BadCodeExamples
 {
-    public class RentCarService
+    public class RentCarService // Большое кол-во методов в одном классе (GodObject)
     {
 
         public void FindCar(String carNo)
@@ -21,7 +21,7 @@ namespace BadCodeExamples
         {
             //print order
         }
-        public void GetCarInterestInfo(String carType)
+        public void GetCarInterestInfo(String carType) // Большое кол-во циклов, можно создать словарь с характеристиками
         {
             if (carType == "sedan")
             {
@@ -36,7 +36,7 @@ namespace BadCodeExamples
                 //do some job
             }
         }
-        public void SendMessage(String typeMessage, String message)
+        public void SendMessage(String typeMessage, String message) // Метод можно вынести в другой класс (Закон Деметры GodObject)
         {
             if (typeMessage == ("email"))
             {
