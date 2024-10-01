@@ -2,7 +2,9 @@
 
 namespace BadCodeExamples
 {
-    public class RentCarService
+    public class RentCarService //Этот класс RentCarService имеет слишком много методов, которые выполняют разные функции.
+                                //Это уже не сходится с принципом единой ответственности.
+                                //Я бы лучше разделил этот класс на несколько классов, каждый из которых будет отвечать за одну конкретную задачу.
     {
 
         public void FindCar(String carNo)

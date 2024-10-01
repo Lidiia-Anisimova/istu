@@ -2,7 +2,9 @@
 
 namespace BadCodeExamples
 {
-    public class EmailSender
+    public class EmailSender //Этот код имеет дублирование отправки электронной почты в классах EmailSender и NotificationService.
+                             //Это нарушает принцип KISS
+                             //Классы EmailSender и NotificationService имеют одинаковый функционал, но используются в разных местах.
     {
 
         public void Send()

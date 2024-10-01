@@ -1,6 +1,6 @@
 ﻿namespace BadCodeExamples
 {
-    public abstract class Bird
+    public abstract class Bird //Я бы разделил этот класс на два Bird и Fly так как метод Fly не являтеся общим для всех птиц.
     {
         public virtual void Fly(int speed)
         {

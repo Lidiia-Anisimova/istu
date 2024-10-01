@@ -1,6 +1,7 @@
 ﻿namespace BadCodeExamples
 {
-    public class Class1
+    public class Class1 //Здесь аналогично с файлом Example1 и классом RentCarService имеет слишком много ответственностей.
+                        //Так же очень много операторов if лучше их упростить как гласит принцип KISS
     {
         public decimal Calculate(decimal amount, int type, int years)
         {
