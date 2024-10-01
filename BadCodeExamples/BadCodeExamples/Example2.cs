@@ -37,6 +37,7 @@ namespace BadCodeExamples
 
     }
 
+//Как я понял тут два раза одно и то же делается. Don’t Repeat Yourself / Не повторяйтесь. 
 
     public class Worker()
     {
