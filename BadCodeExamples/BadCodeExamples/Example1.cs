@@ -1,4 +1,5 @@
-﻿using BadCodeExamples.Entities;
+﻿//Нарушен принцип SOLID
+using BadCodeExamples.Entities;
 
 namespace BadCodeExamples
 {
