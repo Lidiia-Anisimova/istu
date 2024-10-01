@@ -1,4 +1,5 @@
-﻿using System.Net.Mail;
+﻿//Нарушены принципы DRY, SOLID
+using System.Net.Mail;
 
 namespace BadCodeExamples
 {
