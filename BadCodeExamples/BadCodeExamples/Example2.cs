@@ -2,9 +2,9 @@
 
 namespace BadCodeExamples
 {
+    //Нарушены принципы DRY - don't repeat your self
     public class EmailSender
     {
-
         public void Send()
         {
             var email = new MailMessage
@@ -19,7 +19,7 @@ namespace BadCodeExamples
 
     }
 
-
+    //Нарушены принципы DRY - don't repeat your self
     public class NotificationService
     {
 
