@@ -43,14 +43,17 @@
             throw new Exception("Kiwi don't fly");
         }
     }
-
+	 /// <summary>
+    /// Голубь
+    /// </summary>
     public class Pigeon : Bird
     {
         /// <inheritdoc />
         public override void Fly(int speed)
         {
             // голубь летит
-            /// Тут нет кода throw new Exception("Pigeon don't fly")
+            /// Тут нет кода throw new Exception("Pigeon fly").
+            /// Да. Голубь летает. Исправил выражение в скобочках.
         }
     }
 
