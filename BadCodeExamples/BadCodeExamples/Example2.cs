@@ -57,3 +57,4 @@ namespace BadCodeExamples
         }
     }
 }
+// Нарушен принцип DRY (Не повторяйся)
