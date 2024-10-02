@@ -46,3 +46,4 @@ namespace BadCodeExamples
         }
     }
 }
+// Нарушен принцип SOLID - SRP (Принцип единственной ответственности)
