@@ -44,5 +44,6 @@ namespace BadCodeExamples
                 //use JavaMailSenderAPI
             }
         }
+        //Нарушение SOLID, единственной ответственности, т.к. есть разные действия
     }
 }
