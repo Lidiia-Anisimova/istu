@@ -4,7 +4,7 @@ namespace BadCodeExamples
 {
     public class EmailSender
     {
-
+        //Нарушение DRY
         public void Send()
         {
             var email = new MailMessage
@@ -22,7 +22,7 @@ namespace BadCodeExamples
 
     public class NotificationService
     {
-
+        //Нарушение DRY
         public void SendNotification()
         {
             var email = new MailMessage
