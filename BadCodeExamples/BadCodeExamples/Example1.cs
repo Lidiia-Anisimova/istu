@@ -21,6 +21,7 @@ namespace BadCodeExamples
         {
             //print order
         }
+        //Нарушен принцип SOLID, если заказчик захочет еще один вид машины, придется менять и дописывать данный метод
         public void GetCarInterestInfo(String carType)
         {
             if (carType == "sedan")
@@ -36,6 +37,7 @@ namespace BadCodeExamples
                 //do some job
             }
         }
+        //Также нарушен SOLID, если помимо отправки сообщения еще будет необходимость отправлять СМС...также будет необходимо менять метод
         public void SendMessage(String typeMessage, String message)
         {
             if (typeMessage == ("email"))
@@ -44,5 +46,6 @@ namespace BadCodeExamples
                 //use JavaMailSenderAPI
             }
         }
+        //Необходимо разделить этот класс на несколько других классов и вносить в них инфу о машинах, сообщениях и тд
     }
 }
