@@ -2,7 +2,7 @@
 
 namespace BadCodeExamples
 {
-    public class RentCarService
+    public class RentCarService // Данный класс нарушает  принцип единной ответственности так как отвечает за разные действия SRP
     {
 
         public void FindCar(String carNo)
@@ -21,7 +21,7 @@ namespace BadCodeExamples
         {
             //print order
         }
-        public void GetCarInterestInfo(String carType)
+        public void GetCarInterestInfo(String carType)  
         {
             if (carType == "sedan")
             {

@@ -1,8 +1,8 @@
 ﻿namespace BadCodeExamples
 {
-    public class Class1
+    public class Class1 
     {
-        public decimal Calculate(decimal amount, int type, int years)
+        public decimal Calculate(decimal amount, int type, int years) // Слишком большой метод первый принцип SRP , так как метод Calculate выполняет несколько различных операций в зависимости от значения
         {
             decimal result = 0;
             decimal disc = (years > 5) ? (decimal)5 / 100 : (decimal)years / 100;

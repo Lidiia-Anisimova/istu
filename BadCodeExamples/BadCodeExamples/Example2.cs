@@ -5,7 +5,7 @@ namespace BadCodeExamples
     public class EmailSender
     {
 
-        public void Send()
+        public void Send() 
         {
             var email = new MailMessage
             {
@@ -20,7 +20,7 @@ namespace BadCodeExamples
     }
 
 
-    public class NotificationService
+    public class NotificationService //Каждый класс должен выполнять свою задачу принцип SRP
     {
 
         public void SendNotification()
@@ -48,7 +48,7 @@ namespace BadCodeExamples
     }
 
 
-    public class Worker2()
+    public class Worker2() // Дублирование кода принцип ISP
     {
         void DoSomething()
         {

@@ -1,6 +1,6 @@
 ﻿namespace BadCodeExamples
 {
-    public abstract class Bird
+    public abstract class Bird //Код нарушает принцип подстановки Лисков (LSP), так как подклассы Penguin, Ostrich и Kiwi переопределяют метод Fly и выбрасывают исключения, что не соответствует ожиданиям от базового класса Bird
     {
         public virtual void Fly(int speed)
         {
