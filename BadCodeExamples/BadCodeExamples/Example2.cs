@@ -2,6 +2,7 @@
 
 namespace BadCodeExamples
 {
+    // Нарушение DRY, классы EmailSender и NotificationService дублируются и выполняют одну и ту же задачу
     public class EmailSender
     {
 
