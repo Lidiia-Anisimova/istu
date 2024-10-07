@@ -1,5 +1,6 @@
 ﻿namespace BadCodeExamples
 {
+    // Нарушен KISS, много if + непонятные числа типа 5, 0.1m, 0.7m и т.д.
     public class Class1
     {
         public decimal Calculate(decimal amount, int type, int years)
@@ -12,6 +13,7 @@
             }
             else if (type == 2)
             {
+                // DRY 
                 result = (amount - (0.1m * amount)) - disc * (amount - (0.1m * amount));
             }
             else if (type == 3)
@@ -20,6 +22,7 @@
             }
             else if (type == 4)
             {
+                // DRY 
                 result = (amount - (0.5m * amount)) - disc * (amount - (0.5m * amount));
             }
             return result;
