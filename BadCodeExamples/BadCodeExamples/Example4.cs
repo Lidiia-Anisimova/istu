@@ -1,4 +1,4 @@
-﻿namespace BadCodeExamples // Большое кол-во классов DRY
+namespace BadCodeExamples // Метод fly родитель у тех классов где реализация полета не нужна т.к птица не умеет летать! Solid Liskov
 {
     public abstract class Bird
     {
@@ -49,7 +49,7 @@
         /// <inheritdoc />
         public override void Fly(int speed)
         {
-            // голубь летит               //реализация полета с ошибочным значением птицы
+            // голубь летит               
         }
     }
 
