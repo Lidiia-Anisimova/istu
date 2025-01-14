@@ -27,18 +27,18 @@ namespace BadCodeExamples
             {
                 //do some job
             }
-            if (carType == ("pickup"))
+            if (carType == /*(*/"pickup"/*)*/) //Ненужные скобки
             {
                 //do some job
             }
-            if (carType == ("van"))
+            if (carType == /*(*/ "van"/*)*/) //Ненужные скобки
             {
                 //do some job
             }
         }
         public void SendMessage(String typeMessage, String message)
         {
-            if (typeMessage == ("email"))
+            if (typeMessage == /*(*/"email"/*)*/) //Ненужные скобки
             {
                 //write email
                 //use JavaMailSenderAPI
