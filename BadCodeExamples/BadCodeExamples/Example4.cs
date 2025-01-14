@@ -2,7 +2,7 @@
 {
     public abstract class Bird
     {
-        public virtual void Fly(int speed)
+        public virtual void Fly(int speed) //Нужно поменять название метода, чтобы подходило по смыслу. Т.к. у нас все птицы не умею летать
         {
             //реализация полёта
         }
@@ -11,7 +11,7 @@
     /// <summary>
     /// Пингвин
     /// </summary>
-    public class Penguin : Bird
+    public class Penguin : Bird //так эти птички не умеют летать)
     {
         /// <inheritdoc />
         public override void Fly(int speed)
@@ -23,7 +23,7 @@
     /// <summary>
     /// Страус
     /// </summary>
-    public class Ostrich : Bird
+    public class Ostrich : Bird //так эти птички не умеют летать)
     {
         /// <inheritdoc />
         public override void Fly(int speed)
@@ -35,7 +35,7 @@
     /// <summary>
     /// Киви
     /// </summary>
-    public class Kiwi : Bird
+    public class Kiwi : Bird //так эти птички не умеют летать)
     {
         /// <inheritdoc />
         public override void Fly(int speed)
@@ -44,7 +44,7 @@
         }
     }
 
-    public class Pigeon : Bird
+    public class Pigeon : Bird //так эти птички не умеют летать)
     {
         /// <inheritdoc />
         public override void Fly(int speed)
