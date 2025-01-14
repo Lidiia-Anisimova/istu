@@ -1,5 +1,5 @@
 ﻿using System.Net.Mail;
-
+//Повторяющийся код в классах EmailSender и NotificationService
 namespace BadCodeExamples
 {
     public class EmailSender
@@ -20,7 +20,7 @@ namespace BadCodeExamples
     }
 
 
-    public class NotificationService
+   /* public class NotificationService
     {
 
         public void SendNotification()
@@ -36,7 +36,7 @@ namespace BadCodeExamples
         }
 
     }
-
+   */
 
     public class Worker()
     {
@@ -48,7 +48,7 @@ namespace BadCodeExamples
     }
 
 
-    public class Worker2()
+  /*  public class Worker2()
     {
         void DoSomething()
         {
@@ -56,4 +56,5 @@ namespace BadCodeExamples
             sender.SendNotification();
         }
     }
+  */
 }
